@@ -53,21 +53,6 @@ button{
 }
 
 
-
-/* .debug [class^=col] {
-    border: 2px dashed black;
-
-} */
-
-
-/* .row-cols-4 > .col {
-    flex-basis: calc(100% / 4);
-}
-
-.row-cols-4 > .col-50 {
-	flex-basis: 50%;
-} */
-
 .debug .bg-blue{
     min-height: 400px;
     padding: 50px;
@@ -242,3 +227,81 @@ p{
     padding: 10px;
     margin-bottom: 50px;
 }
+
+
+
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.items-center {
+    padding: 25px;
+	align-items: center;
+    border-top: 2px solid rgb(118, 136, 210);
+}
+
+.main-header .row {
+	align-items: center;
+    
+}
+
+.logo {
+	min-width: 150px;
+}
+
+.page-footer {
+	background-color: #23272a;
+	color: white;
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.col-16 {
+	flex-basis: calc(100% / 6);
+}
+
+.col-33 {
+	flex-basis: calc(100% / 3);
+}
+
+
+.purple-title{
+    color: rgb(118, 136, 210);
+    
+}
+
+.bandiera{
+    max-width: 22px;
+
+}
+
+.lingua-ita{
+    font-size: 11px;
+}
+
+ul{
+    list-style-type: none;
+    margin right: 0px;
+    padding: 0;
+  }
+
+  li{
+    font-weight: 300;
+    font-size: 12px;
+    padding: 8px;
+  }
+   
+  ul :first-child {
+    color: rgb(118, 136, 210);
+  }
+
+.button-registrati{
+    background-color: rgb(119, 137, 212);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
