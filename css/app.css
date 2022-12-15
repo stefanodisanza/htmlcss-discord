@@ -127,14 +127,14 @@ button{
 .debug .rosa{
     /* background-color: #FEC0CA; */
     min-height: 350px;
-
 }
 
 .black-title{
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 30px;
-    padding: 20px;
+    padding-bottom: 20px;
+    
 }
 
 
@@ -152,7 +152,7 @@ p{
 }
 
 .debug .bg-gray{
-    background-color: #D3D3D3;
+    background-color: rgb(246, 246, 246);
     min-height: 400px;
     padding: 50px;
 }
