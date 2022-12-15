@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+/* .debug .header {
+    background-color: #DAA520;
+} */
+
+.debug header{
+    background-color: #265FE9;
+    padding: 20px;
+    color: white;
+}
+
+span  {
+    margin: 0 15px 0 15px;
+}
+
+
+
+button{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Poppins';
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.justify-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* .debug [class^=col] {
+    border: 2px dashed black;
+
+} */
+
+
+/* .row-cols-4 > .col {
+    flex-basis: calc(100% / 4);
+}
+
+.row-cols-4 > .col-50 {
+	flex-basis: 50%;
+} */
+
+.debug .bg-blue{
+    background-color: #01008B;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .small{
+    min-height: 350px;
+    max-width: 700px;
+    background-color: #EE81ED;
+}
+
+.debug .bg-white{
+    background-color: white;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .celeste{
+    background-color: #1D90FF;
+    min-height: 350px;
+
+}
+
+.debug .rosa{
+    background-color: #FEC0CA;
+    min-height: 350px;
+
+}
+
+.row-cols-3 > .col {
+    flex-basis: calc(100% / 3);
+}
+
+.row-cols-3 > .celeste {
+	flex-basis: calc(100% / 3 * 2)
+}
+
+.debug .bg-gray{
+    background-color: #D3D3D3;
+    min-height: 400px;
+    padding: 50px;
+}
+
+
+.debug .green{
+    background-color: #228B21;
+    min-height: 500px;
+}
+
+
+.debug .bg-black{
+    background-color: #23272A;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .salmone{
+    background-color: salmon;
+    min-height: 350px;
+}
+
+.debug .turchese{
+    background-color: turquoise;
+    min-height: 350px;
+}
+
+.row-cols-6 > .col {
+    flex-basis: calc(100% / 6);
+}
+
+.row-cols-6 > .salmone {
+	flex-basis: calc(100% / 6 * 2)
+}
+
+.debug footer{
+    background-color: #23272A;
+    border-top: 1px solid white;
+    padding: 30px;
+    
+}
+
+.debug .footer{
+    background-color: aquamarine;
+    padding: 20px 0 20px 0px;
+}
+
+
+.container .footer{
+    display: flex;
+}
+
+
+.debug .logo-footer {
+    background-color: #FEC0CA;
+}
+
+.debug .bottone{
+    background-color: #FEC0CA;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
