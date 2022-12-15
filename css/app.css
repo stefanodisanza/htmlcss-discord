@@ -138,6 +138,23 @@ button{
 }
 
 
+.bg-gray > .green {
+    text-align: center;
+}
+
+
+.stars{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+
+
+.class{
+    text-align: center;
+}
+
 p{
     font-weight: 400;
 }
@@ -159,7 +176,7 @@ p{
 
 
 .debug .green{
-    background-color: #228B21;
+    /* background-color: #228B21; */
     min-height: 500px;
 }
 
@@ -218,3 +235,10 @@ p{
     flex-direction: row-reverse;
 }
 
+.button-lavanda{
+    margin-left: 10px;
+    background-color: rgb(119, 137, 212);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 50px;
+}
