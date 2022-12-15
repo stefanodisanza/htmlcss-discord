@@ -69,16 +69,49 @@ button{
 } */
 
 .debug .bg-blue{
-    background-color: #01008B;
     min-height: 400px;
     padding: 50px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
+
 
 .debug .small{
     min-height: 350px;
     max-width: 700px;
-    background-color: #EE81ED;
+    text-align: center;
+    /* background-color: #EE81ED; */
 }
+
+.title-header{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+.testo-header{
+    color: white;
+}
+
+.bottoni-header{
+    padding: 25px;
+}
+
+.download{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.browser{
+    margin-left: 10px;
+    background-color: rgb(36, 39, 42);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
 
 .debug .bg-white{
     background-color: white;
